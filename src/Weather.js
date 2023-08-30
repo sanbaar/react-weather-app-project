@@ -1,9 +1,9 @@
 import "./Weather.css";
-import react, { useState } from "React";
+import React, { useState } from "react";
 import axios from "axios";
 
 export default function Weather() {
-  const [ready, setReady] = usetState(false);
+  const [ready, setReady] = useState(false);
   const [temperature, setTemperature] = useState(null);
 
   function handleResponse(response) {
