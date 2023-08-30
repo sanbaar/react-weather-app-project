@@ -1,0 +1,129 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(
+    1224px at 10.6% 8.8%,
+    rgb(255, 255, 255) 0%,
+    rgb(153, 202, 251) 100.2%
+  );
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  color: black;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  max-width: 700px;
+  display: block;
+  margin: 70px auto;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.card-body {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+#city-input {
+  width: 450px;
+  padding: 8px 15px;
+}
+
+.current-date {
+  text-align: center;
+}
+
+.current-day-parameters {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+.description::first-letter {
+  text-transform: capitalize;
+}
+
+.forecast-icons {
+  width: 60px;
+}
+
+#forecast-min {
+  color: grey;
+}
+
+#icon {
+  width: 120px;
+  position: relative;
+  top: -10px;
+}
+
+.open-source-code {
+  text-align: center;
+  font-size: 14px;
+}
+
+.prediction-day {
+  text-align: center;
+}
+
+.prediction-icon {
+  font-size: 30px;
+}
+
+#search-button {
+  padding: 8px 15px;
+  background-color: #9dd7f7;
+  border-radius: 4px;
+}
+
+#search-city {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.temperature {
+  text-align: right;
+  font-size: 70px;
+}
+
+.temperature-prediction {
+  font-size: 14px;
+}
+
+.temp-rain-wind {
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.trw-icon {
+  font-size: 18px;
+}
+
+.trw-units {
+  font-size: 14px;
+}
+
+.weather-prediction {
+  padding-top: 26px;
+}
