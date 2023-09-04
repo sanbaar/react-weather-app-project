@@ -12,8 +12,8 @@ export default function WeatherInfo(props) {
         {props.data.description}
       </div>
       <div className="row current-day-parameters">
-        <div className="col-3">
-          <img src="" alt="" id="icon" />
+        <div className="col-3" id="">
+          <img src={props.data.iconURL} alt="" id="icon" />
         </div>
         <div className="col-3 temp-rain-wind">
           <i
